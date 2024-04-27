@@ -1,0 +1,23 @@
+.side-bar{
+    /* background-color: rgb(162, 163, 253); */
+    width: var(--w-sidebar);
+    height: calc(var(--h-full) - var(--h-sidebar));
+    padding: 20px 20px 0px 20px;
+    border-right: 2px solid var(--c-Pearl);
+    overflow-y: auto;
+}
+
+.side-bar .nav-link{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px 6px 10px;
+    font-size: 20px;
+    color: var(--c-navlink);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.side-bar .active{
+    background-color: var(--c-sidepanel);
+    color: var(--c-white);
+}

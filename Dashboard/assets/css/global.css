@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    color: var(--c-grey);
+    background-color: var(--c-primary);
+    font-family: var(--font-regular);
+}
+
+ul li { list-style: none; }
+a { text-decoration: none; }
+a:hover { cursor: pointer; }

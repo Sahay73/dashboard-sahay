@@ -1,0 +1,31 @@
+:root{
+    --w-full:100%;
+    --h-full:100vh;
+    --header-h: 51px;
+    --h-sidebar:105px;
+    --w-sidebar:220px
+    
+}
+
+
+.form-control{
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+h1 { font-size: 20px; }
+h2 { font-size: 18px; }
+h3 { font-size: 15px; }
+h4 { font-size: 10px; }
+h6 { font-size: 16px; }
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #363a55;
+    border-radius: 4px;
+}
